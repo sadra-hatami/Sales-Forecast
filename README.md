@@ -3,7 +3,7 @@
 # Sales Forecast
 # 📈
 
-### A small sales regression in Python
+### A sales regression in Python
 
 A linear model that reads a sales CSV, turns the date and advertising level into features, and scores how far the predicted sales sit from the real numbers.
 
@@ -53,13 +53,11 @@ A linear model that reads a sales CSV, turns the date and advertising level into
 
 # 📖 About
 
-**Sales Forecast** is a small regression script.
+**Sales Forecast** is a regression script.
 
 `Sales_Forecast.py` loads a CSV, fills missing rows, splits the date into year, month, and day, and turns the advertising level into numeric columns. A linear regression model is trained on price, date parts, and advertising, then scored with mean squared error and root mean squared error.
 
 > **Tagline:** *A Python sales regression that predicts a number from date, price, and advertising level.*
-
-This is a study script, not a business forecast.
 
 ---
 
